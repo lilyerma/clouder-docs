@@ -1,5 +1,5 @@
-site_name: Documentation
-site_author: Cloudmaster Team
+site_name: Документация
+site_url: https://lilyerma.github.io
 
 theme:
     language: ru
