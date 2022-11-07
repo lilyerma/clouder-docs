@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Главная
             
           </span>
         </div>
@@ -225,25 +225,41 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Главная
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="." class="md-nav__link md-nav__link--active">
-        Home
+        Главная
       </a>
       
-    </li>
-  
+        
 
+<nav class="md-nav md-nav--secondary" aria-label="Содержание раздела">
+  
+  
+  
     
-      
-      
-      
-
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание раздела
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    О системе
+  </a>
   
-    <li class="md-nav__item">
-      <a href="quick-start/" class="md-nav__link">
-        Быстрый старт
-      </a>
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -261,20 +277,20 @@
     <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_3">
-          О системе
+        <label class="md-nav__link" for="__nav_2">
+          Быстрый старт
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="О системе" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
+      <nav class="md-nav" aria-label="Быстрый старт" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          О системе
+          Быстрый старт
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -284,8 +300,8 @@
   
   
     <li class="md-nav__item">
-      <a href="about/" class="md-nav__link">
-        Введение
+      <a href="quick-start/" class="md-nav__link">
+        Основные процессы
       </a>
     </li>
   
@@ -325,18 +341,18 @@
     <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_4">
+        <label class="md-nav__link" for="__nav_3">
           Гайды
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Гайды" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+        <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
           Гайды
         </label>
@@ -436,6 +452,22 @@
 <h1 id="_1">О платформе</h1>
 <p><strong>Cloudmaster</strong> — платформа для управления облаками, объединяет два продукта: Clouder и Coster. В текущей версии программы функциональность продуктов взаимосвязана и требует совместной настройки. </p>
 <p>Документация на этом сайте относится к продукту <strong>Clouder</strong>. Здесь содержатся руководства по работе с продуктом и уточняются особенности настроек.</p>
+<h2 id="_2">О системе</h2>
+<p>Задача <strong>Clouder</strong> — разделять облако на подписки, ограниченные квотами на ресурсы, таким образом повышая прозрачность использования ресурсов в облаке. <strong>Clouder</strong> также может служить платформой для самостоятельного создания машин разработчиками и админами.</p>
+<p><strong>Clouder</strong> поддерживает работу с системами виртуализации и облаками: </p>
+<ul>
+<li>Hyper-V (SCVMM), версии Hyper-V 10.0.17783.1911, SCVMM 10.19.1013.0</li>
+<li>VWware Cloud Director, </li>
+<li>Yandex Cloud. </li>
+</ul>
+<p>Основные ресурсы, с которыми работает <strong>Clouder</strong>:</p>
+<ul>
+<li>виртуальные машины,</li>
+<li>диски, </li>
+<li>сети, </li>
+<li>образы. </li>
+</ul>
+<p><strong>Clouder</strong> работает с квотами на CPU, RAM, Storage. Работа с квотами для разных типов дисков доступна в Cloud Director и Hyper-V.</p>
 
 
 
@@ -457,13 +489,13 @@
       
       
         
-        <a href="quick-start/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Быстрый старт" rel="next">
+        <a href="quick-start/" class="md-footer__link md-footer__link--next" aria-label="Вперед: Основные процессы" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Вперед
               </span>
-              Быстрый старт
+              Основные процессы
             </div>
           </div>
           <div class="md-footer__button md-icon">
